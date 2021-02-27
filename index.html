@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<div class="container-form">
+	<form action="#" method="post">
+		<header>
+			<h1 class="title-form">Contact form</h1>
+			<p class="sub-title-from">Please fill your information and we'll be sending your order.</p>
+		</header>
+		<section>
+			<div class="wrapper-space-between">
+				<label for="first-name">Your name</label>
+				<div class="inner-right">
+					<input id="first-name" type="text" name="first-name" placeholder="first name">
+					<input id="second-name" type="text" name="second-name" placeholder="last name">
+				</div>
+			</div>
+			<div class="wrapper-space-between">
+				<label for="email">Your email</label>
+				<div class="inner-right">
+					<input id="email" type="email" name="email" placeholder="your_mail@mail.com">
+				</div>
+			</div>
+			<div class="wrapper-space-between">
+				<label for="tel1">Phone *</label>
+				<div class="inner-right">
+					<input id="tel1" type="tel" name="tel1" placeholder="000">
+					<input id="tel2" type="tel" name="tel2" placeholder="000">
+					<input id="tel3" type="tel" name="tel3" placeholder="0000">
+				</div>
+			</div>
+			<div class="wrapper-space-between">
+				<label for="subject">Message subject *</label>
+				<div class="inner-right">
+					<select id="subject">
+						<option value="other">Other</option>
+						<option value="html">html</option>
+						<option value="css">css</option>
+					</select>
+				</div>
+
+			</div>
+			<div class="wrapper-space-between">
+				<label for="message">Message *</label>
+				<div class="inner-right">
+					<textarea id="message"></textarea>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<hr>
+			<button class="btn-submit">submit form</button>
+		</footer>
+	</form>
+</div>
+</body>
+</html>

@@ -1,0 +1,82 @@
+input, select {
+    width: 0;
+    padding: 0.5em;
+}
+
+#message {
+    height: 6em;
+}
+
+hr {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: sans-serif;
+    font-size: 12px;
+    color: white;
+    background-image: url("../img/sea.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.container-form {
+    padding: 3em;
+    background: rgba(0, 0, 0, 0);
+    box-shadow: 0 0 10px 3px black;
+}
+
+.wrapper-space-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.title-form {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.sub-title-from {
+    margin: 2em 0;
+}
+
+.inner-right {
+    display: flex;
+    width: 40em;
+    margin-left: 2em;
+    margin-bottom: 1em;
+}
+
+#first-name, #second-name, #email,
+#tel1, #tel2, #subject, #message {
+    flex-grow: 1;
+}
+
+#tel3 {
+    flex-grow: 1.5;
+}
+
+input + input {
+    margin-left: 1em;
+}
+
+footer {
+    text-align: right;
+}
+
+.btn-submit {
+    width: 40em;
+    margin-top: 1em;
+    padding: 0.5em;
+    text-transform: uppercase;
+    border: 1px solid white;
+    color: white;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: -1px -1px 1px 0 white;
+}
